@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import FruitCard from './FruitCard';
 import './App.css'
-import apple from './img/apple.png'
-import banana from './img/banana.png'
-import pineapple from './img/pineapple.png'
+import apple from '../img/apple.png'
+import banana from '../img/banana.png'
+import pineapple from '../img/pineapple.png'
+import Form from './Form';
 
 
 export class App extends Component {
@@ -30,6 +31,13 @@ export class App extends Component {
     }
   }
 
+  createCard = newCard => {
+    let newState = [...this.state.fruits, newCard]
+    this.setState({
+      fruits: newState
+    })
+  }
+
   deleteCard = index => {
     let newState = [...this.state.fruits];
     newState.splice(index, 1);
@@ -43,6 +51,7 @@ export class App extends Component {
     return (
       <div>
         <h1>Fruit cards</h1>
+        <Form createCard={this.createCard} />
         <div className="container">
           {allFruits}
         </div>
