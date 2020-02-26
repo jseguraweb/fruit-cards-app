@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/fruit-cards-app/static/css/main.f159a7f6.chunk.css",
+    "main.js": "/fruit-cards-app/static/js/main.5e19184a.chunk.js",
+    "main.js.map": "/fruit-cards-app/static/js/main.5e19184a.chunk.js.map",
+    "runtime-main.js": "/fruit-cards-app/static/js/runtime-main.a0e3568c.js",
+    "runtime-main.js.map": "/fruit-cards-app/static/js/runtime-main.a0e3568c.js.map",
+    "static/js/2.8abefd7d.chunk.js": "/fruit-cards-app/static/js/2.8abefd7d.chunk.js",
+    "static/js/2.8abefd7d.chunk.js.map": "/fruit-cards-app/static/js/2.8abefd7d.chunk.js.map",
+    "index.html": "/fruit-cards-app/index.html",
+    "precache-manifest.e6c6831e45b7c3d05dd22bdf953b7abc.js": "/fruit-cards-app/precache-manifest.e6c6831e45b7c3d05dd22bdf953b7abc.js",
+    "service-worker.js": "/fruit-cards-app/service-worker.js",
+    "static/css/main.f159a7f6.chunk.css.map": "/fruit-cards-app/static/css/main.f159a7f6.chunk.css.map",
+    "static/js/2.8abefd7d.chunk.js.LICENSE.txt": "/fruit-cards-app/static/js/2.8abefd7d.chunk.js.LICENSE.txt",
+    "static/media/apple.png": "/fruit-cards-app/static/media/apple.b2b9f0e8.png",
+    "static/media/banana.png": "/fruit-cards-app/static/media/banana.b68ce613.png",
+    "static/media/pineapple.png": "/fruit-cards-app/static/media/pineapple.2c13b05b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0e3568c.js",
+    "static/js/2.8abefd7d.chunk.js",
+    "static/css/main.f159a7f6.chunk.css",
+    "static/js/main.5e19184a.chunk.js"
+  ]
+}
