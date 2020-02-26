@@ -7,7 +7,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "react": "^16.12.0",
@@ -31,5 +33,7 @@
   },
   "author": "naqvi",
   "license": "ISC",
-  "devDependencies": {}
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
