@@ -50,7 +50,7 @@ export class App extends Component {
     let allFruits = this.state.fruits.map((fruit, i) => <FruitCard key={i} index={i} name={fruit.name} picture={fruit.picture} description={fruit.description} deleteCard={this.deleteCard} />);
     return (
       <div>
-        <h1>Fruit cards</h1>
+        <h1>Fruit cards App</h1>
         <Form createCard={this.createCard} />
         <div className="container">
           {allFruits}

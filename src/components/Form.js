@@ -13,24 +13,25 @@ export default class Form extends Component {
         })
     }
 
+    submitData = e => {
+        e.preventDefault();
+        this.props.createCard(this.state)
+    }
+
     render() {
         return (
-            <form className="new-card" onSubmit={(e) => {
-                e.preventDefault();
-                this.props.createCard(this.state)
-            }
-            }>
+            <form className="new-card" onSubmit={this.submitData}>
                 <h3>INSERT NEW CARD</h3>
                 <label htmlFor="card-name">Name
-                    <br /><input name="name" type="text" onChange={this.getData} />
+                    <br /><input name="name" type="text" onChange={this.getData} required />
                 </label>
                 <br /><label htmlFor="card-picture">Image url
-                    <br /><input name="picture" type="url" onChange={this.getData} />
+                    <br /><input name="picture" type="url" onChange={this.getData} required />
                 </label>
                 <br /><label htmlFor="card-description">Description
-                    <br /><textarea name="description" rows="8" cols="1" onChange={this.getData} />
+                    <br /><textarea name="description" rows="8" cols="1" onChange={this.getData} required />
                 </label>
-                <input type="submit" value="ADD" />
+                <input className="button" type="submit" value="ADD" />
             </form>
         )
     }

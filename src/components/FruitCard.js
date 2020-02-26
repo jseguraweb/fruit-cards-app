@@ -7,7 +7,6 @@ const FruitCard = props => {
             <div className="card">
                 <h2 className="name">{props.name}</h2>
                 <div className="picture" style={{ backgroundImage: `url("${props.picture}")` }}>
-
                 </div>
                 <p className="description">{props.description}</p>
             </div>
