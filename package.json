@@ -1,8 +1,8 @@
 {
   "name": "fruit-cards",
-  "homepage": "https://github.com/jseguraweb/fruit-cards-app/",
   "version": "1.0.0",
   "description": "des",
+  "homepage": "https://github.com/jseguraweb/fruit-cards-app",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
